@@ -1,0 +1,17 @@
+var a = 1;
+var b = 10;
+var name = "And";
+alert(a); //alert shown on the web page
+alert (a + b);
+alert(name);
+alert("Hello World!");
+
+function firstFunction(a, b) {
+    var result = a + b;
+    return result;
+}
+
+var x = firstFunction(7, 13);
+alert(x);
+var y = firstFunction(2, 5);
+alert(y);
