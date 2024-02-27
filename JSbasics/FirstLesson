@@ -54,10 +54,10 @@ for (var i = 0; i < firstArray.length; i++) {
 //STRING
 var firstString = 'First string';
 alert(firstString);
-var secondString = ' This is too long string \nfor one line';
+var secondString = 'This is too long string \nfor one line';
 alert(secondString);
 alert(secondString.length); //string length
-alert(firstString + 'and second part of this string');
+alert(firstString + ' and second part of this string');
 var c = '1';
 alert(b + c); // = '101'
 

@@ -1,0 +1,30 @@
+var a = 4;
+var b = 3;
+var c = a + b;
+//console.log(c); //console
+
+//console.log(window);
+//console.log(window.document);
+//document.write('New header'); //New header on the top
+//document.write('<h1>New header</h1>'); //New header type h1 on the top
+
+//change sth when page is loaded
+// window.onload = function() {
+//     //var top = document.getElementById('Top');
+//     //top.innerHTML = 'It is a new top';
+//     //top.style.color = 'red';
+
+//     var paragraphs = document.getElementsByTagName('p');
+//     console.log(paragraphs); //display all 'p' in console
+//     console.log(paragraphs.length); //paragraphs array length
+//     console.log('There are ' + paragraphs.length + ' paragraphs on the page');
+//}
+
+// wait for page fully loaded, find button with id='button', click on button, display alert.
+// window.onload = function() {
+//     var button = document.getElementById('button');
+//     button.onclick = function() {
+//         alert('You did it well!')
+//     }
+// }
+
