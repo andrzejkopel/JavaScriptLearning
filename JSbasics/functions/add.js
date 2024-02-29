@@ -1,3 +1,3 @@
-export default function(a, b) {
+module.export = function(a, b) {
     return a + b;
 }
